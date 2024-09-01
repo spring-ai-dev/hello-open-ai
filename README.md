@@ -46,5 +46,5 @@ curl localhost:8080/ask \
 You can also use [httpie](https://httpie.io/) to ask quesions:
 
 ```sh
-http :8080/ask question="Who founded the Spring Framework?"
+http --body :8080/ask question="Who founded the Spring Framework?"
 ```
